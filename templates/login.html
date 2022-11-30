@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <main class="form-signin container text-center"
+          style="width: 800px; margin-top: 60px; padding-left: 60px; padding-right: 60px; padding-top: 80px;
+          border: 2px rgba(112,111,111,0.51) solid; border-radius: 20px; background-color: rgba(220,219,219,0.35)">
+      <form method="post">
+        <h1 class="h2 mb-3 fw-normal" style="padding-bottom: 80px">Please Sign In</h1>
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingPassword" name="fpassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary" style="margin-top: 20px" type="submit">Sign In</button>
+        <p class="mt-5 mb-3 text-muted" style="padding-top: 100px">© 2022, Lviv, IoT</p>
+      </form>
+    </main>
+
+
+{% endblock %}

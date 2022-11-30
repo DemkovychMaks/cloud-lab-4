@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="text-center container" style="border: 2px rgba(112,111,111,0.51) solid; border-radius: 20px;
+         background-color: rgba(220,219,219,0.35); padding: 80px; margin-top: 60px; width: 800px">
+        <h1 style="font-family: 'Droid Serif'; color: crimson">{% block title %} Login Fail {% endblock %}</h1>
+        <h3>Password is incorrect</h3>
+        <h3>{{ utc_dt }}</h3>
+    </div>
+{% endblock %}
